@@ -1,0 +1,104 @@
+body {
+  background-color: #060842;
+  background-image: url("/imagens/back.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+body .menutop {
+  background-color: #6ea4ca;
+  padding: 5px;
+  border-bottom: 2px solid grey;
+}
+
+body .menutop img {
+  height: 55px;
+  width: auto;
+}
+
+body .menu-texto {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menuImagens {
+  background-image: url("imagens/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.menuImagens .texto-imagens {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menuImagens .texto-imagens p {
+  border-top: 1px solid #1eabc7;
+}
+
+.menuImagens .texto-imagens a {
+  color: white;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  height: 60px;
+  list-style-type: none;
+  margin: 1;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: #6ea4ca;
+}
+
+li {
+  float: left;
+}
+
+#TextoCentral {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  color: white;
+  text-align: center;
+}
+
+#ImagensAlerta {
+  padding-top: 100px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#TextoAlerta {
+  text-align: center;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #39729b;
+}
+
+#map {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

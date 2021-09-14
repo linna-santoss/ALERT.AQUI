@@ -1,0 +1,99 @@
+
+body {
+  background-color: rgb(6, 8, 66); 
+  background-image: url("/imagens/back.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  .menutop{ 
+    background-color: rgb(110, 164, 202);
+    padding: 5px;
+    border-bottom: 2px solid grey;
+    img{
+      height: 55px;
+      width: auto;
+    }
+  }    
+  .menu-texto{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+
+.menuImagens{
+  background-image: url("imagens/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  margin-bottom: 30px;
+
+  text-align: center;
+  .texto-imagens{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    p{
+        border-top: 1px solid #1eabc7;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  height: 60px;
+  list-style-type: none;
+  margin: 1;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: rgb(110, 164, 202);
+}
+
+li {
+  float: left;
+}
+
+#TextoCentral {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  color: white;
+  text-align: center;
+}
+
+#ImagensAlerta {
+  padding-top: 100px;
+  align-content: center
+}
+
+#TextoAlerta {
+  text-align: center;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(57, 114, 155);
+}
+
+#map {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+}
+
